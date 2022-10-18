@@ -1,0 +1,23 @@
+<h3>Working with pipes</h3>
+<hr/>
+<h4>date pipe</h4>
+<p>{{"9/16/2022" | date:'short'}}</p>
+<p>{{"9/16/2022" | date:'long'| lowercase}}</p>
+<p>{{"9/16/2022" | date:'full'| uppercase}}</p>
+<p>{{"9/16/2022" | date:'medium'}}</p>
+
+<h4>Decimal Pipe</h4>
+<p>{{3.1412| number:'2.1-2'}}</p>
+<hr/>
+
+<h4>percentage pipe</h4>
+<p>{{45/50 | percent:'2.1-2'}}</p>
+<hr/>
+
+<h4>slice Pipe</h4>
+<p>{{[10,20,30,40] | slice :1:40}}</p>
+<hr/>
+
+<h4>currency pipe</h4>
+<p>{{1000 |currency:'₹'}}</p>
+<hr/>
